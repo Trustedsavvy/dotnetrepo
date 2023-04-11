@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: Pool1
+  vmImage: windows-latest
 
 stages:
 - stage: Build_Stage
